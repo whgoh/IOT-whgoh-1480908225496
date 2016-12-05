@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT whgoh
+  host: IOT-whgoh
+  disk_quota: 1024M
+  services:
+  - IOT whgoh-cloudantNoSQLDB
+  - IOT whgoh-iotf-service
